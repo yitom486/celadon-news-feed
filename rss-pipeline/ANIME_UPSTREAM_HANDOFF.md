@@ -58,7 +58,7 @@
 >
 > **必须输出结构（写入 HTML，供 `content:encoded` / `description`）：**
 > 1. 二级标题「资讯摘要」——只写可核实的事实（时间、价格、主办、作品名、是否官宣）。信息不足就写「以官方后续公布为准」，禁止编造档期/价格/阵容。
-> 2. 配图：按输入 `coverUrl` / `imageUrls` 顺序使用 `<figure><img src="https://…" loading="lazy" referrerpolicy="no-referrer" /><figcaption>…</figcaption></figure>`。不下载、不托管图片；不写没见过的画面描述；没有图就不要假装有图。
+> 2. 配图：按输入 `coverUrl` / `imageUrls` 顺序使用 `<figure><img src="https://…" loading="lazy" referrerpolicy="no-referrer" /><figcaption>…</figcaption></figure>`（可含内容 SVG 外链，不内联源码）。不下载、不托管图片；不写没见过的画面描述；没有图就不要假装有图。站点 Logo/广告由采集端滤掉；重要主视觉尽量同时有 PNG/WebP。
 > 3. 二级标题「背景与解读」——短、有信息量；补充作品/系列/主办语境与「已确认 vs 未确认」。不要出现「AI」「模型认为」「作为人工智能」等身份话术。
 >
 > **标题：** 外语稿译成自然中文标题；中文原稿可保留原标题并做摘要。专有名词：优先可核实的官方中文名，其次常用译名，无法确认则保留原名并括注原文。`titleHintZh` 仅作提示，不可无条件采用。
