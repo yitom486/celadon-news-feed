@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-06T06:34:11.607Z",
+  "generatedAt": "2026-11-06T07:14:49.062Z",
   "feeds": {
     "anime": "https://yitom486.github.io/celadon-news-feed/anime.xml",
     "events": "https://yitom486.github.io/celadon-news-feed/events.xml"
   },
   "counts": {
     "anime": 11,
-    "events": 10
+    "events": 13
   },
   "anime": [
     {
@@ -145,7 +145,7 @@
       "title": "烟台·永昼梦乐奇境动漫展进行中：11 月 6–8 日永旺梦乐城金沙滩店",
       "link": "https://www.yunmanzhan.com/#title-13078",
       "publishedAt": "2026-11-06T03:00:00.000Z",
-      "coverUrl": null,
+      "coverUrl": "https://i2.hdslb.com/bfs/openplatform/202610/MxD0WMdn1792999774_1792999774730.jpg",
       "sourceLabel": "次元黄页",
       "sources": [
         "yunmanzhan.com",
@@ -157,7 +157,7 @@
       "title": "哈尔滨·剑网 3 同人 ONLY 2.0：11 月 7 日江上城堡，聚合站显示已停售",
       "link": "https://www.gxdm.net/article-50529-1.html",
       "publishedAt": "2026-11-05T14:51:00.000Z",
-      "coverUrl": null,
+      "coverUrl": "https://i1.hdslb.com/bfs/openplatform/202610/g0ZDYnD91792062959_1792062959062.jpg",
       "sourceLabel": "高校动漫网",
       "sources": [
         "gxdm.net",
@@ -180,7 +180,7 @@
       "title": "西安·澜珊动漫展（于澜珊处·邂逅幻想）：11 月 7 日老钢厂创意产业园",
       "link": "https://www.gxdm.net/article-49800-1.html",
       "publishedAt": "2026-11-05T14:51:00.000Z",
-      "coverUrl": null,
+      "coverUrl": "https://i1.hdslb.com/bfs/openplatform/202609/DG13xjFO1788358575_1788358575918.png",
       "sourceLabel": "高校动漫网",
       "sources": [
         "gxdm.net",
@@ -251,6 +251,40 @@
       "sourceLabel": "次元黄页",
       "sources": [
         "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:ccb9cf7f7e092a82b4454516",
+      "title": "北京·BACC 动漫游戏嘉年华 06：聚合站已收录，海报与场次以主办为准",
+      "link": "https://www.gxdm.net/article-50224-1.html",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "coverUrl": "https://i2.hdslb.com/bfs/openplatform/202609/bqbxEHGH1790576533_1790576533412.jpg",
+      "sourceLabel": "高校动漫网",
+      "sources": [
+        "gxdm.net",
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:5d2e28bfb92ec46d4e567000",
+      "title": "河北·第二届明日方舟同人 only「弗尔桑德萨迦」：海报已出，细则看主办",
+      "link": "https://www.gxdm.net/article-50182-1.html",
+      "publishedAt": "2026-11-05T11:30:00.000Z",
+      "coverUrl": "https://i2.hdslb.com/bfs/openplatform/202609/bIqOXHaU1789967640_1789967640124.jpg",
+      "sourceLabel": "高校动漫网",
+      "sources": [
+        "gxdm.net"
+      ]
+    },
+    {
+      "guid": "celadon:1bafdbf4138ce3544b94f4d8",
+      "title": "天津·星露谷物语同人 only 8.0「花嫁与祖祖城的故事」",
+      "link": "https://www.gxdm.net/article-50047-1.html",
+      "publishedAt": "2026-11-05T11:00:00.000Z",
+      "coverUrl": "https://i2.hdslb.com/bfs/openplatform/202609/naQaCrV61789011682_1789011682950.png",
+      "sourceLabel": "高校动漫网",
+      "sources": [
+        "gxdm.net"
       ]
     }
   ]

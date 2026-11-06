@@ -11,11 +11,14 @@ export const eventArticles: FeedArticle[] = [
     channel: "events",
     title: "烟台·永昼梦乐奇境动漫展进行中：11 月 6–8 日永旺梦乐城金沙滩店",
     link: "https://www.yunmanzhan.com/#title-13078",
+    coverUrl: "https://i2.hdslb.com/bfs/openplatform/202610/MxD0WMdn1792999774_1792999774730.jpg",
     publishedAt: "2026-11-06T03:00:00.000Z",
     sourceLabel: "次元黄页",
     sources: ["yunmanzhan.com", "gxdm.net"],
     guid: guidFromUrl("https://www.yunmanzhan.com/#title-13078"),
-    markdown: `## 资讯归纳
+    markdown: `![封面](https://i2.hdslb.com/bfs/openplatform/202610/MxD0WMdn1792999774_1792999774730.jpg)
+
+## 资讯归纳
 
 聚合站「次元黄页」显示：烟台开发区「永昼梦乐奇境动漫展」档期为 2026 年 11 月 6 日至 8 日，场馆写的是永旺梦乐城（烟台金沙滩店），地区标注山东·烟台。页面标题带「免费活动」「资料更新」，状态已从「未开始」改为「进行中」；票价栏仍出现「30 元起」字样，和「免费」说法并存，需要以主办方现场规则为准。
 
@@ -39,11 +42,14 @@ export const eventArticles: FeedArticle[] = [
     channel: "events",
     title: "哈尔滨·剑网 3 同人 ONLY 2.0：11 月 7 日江上城堡，聚合站显示已停售",
     link: "https://www.gxdm.net/article-50529-1.html",
+    coverUrl: "https://i1.hdslb.com/bfs/openplatform/202610/g0ZDYnD91792062959_1792062959062.jpg",
     publishedAt: "2026-11-05T14:51:00.000Z",
     sourceLabel: "高校动漫网",
     sources: ["gxdm.net", "yunmanzhan.com"],
     guid: guidFromUrl("https://www.gxdm.net/article-50529-1.html"),
-    markdown: `## 资讯归纳
+    markdown: `![封面](https://i1.hdslb.com/bfs/openplatform/202610/g0ZDYnD91792062959_1792062959062.jpg)
+
+## 资讯归纳
 
 「哈尔滨·剑网 3 同人 ONLY 2.0」出现在高校动漫网与次元黄页的活动列表中，日期为 2026 年 11 月 7 日，场馆写哈尔滨江上城堡。次元黄页票务状态显示「已停售」，活动状态仍标「未开始」。
 
@@ -90,11 +96,14 @@ export const eventArticles: FeedArticle[] = [
     channel: "events",
     title: "西安·澜珊动漫展（于澜珊处·邂逅幻想）：11 月 7 日老钢厂创意产业园",
     link: "https://www.gxdm.net/article-49800-1.html",
+    coverUrl: "https://i1.hdslb.com/bfs/openplatform/202609/DG13xjFO1788358575_1788358575918.png",
     publishedAt: "2026-11-05T14:51:00.000Z",
     sourceLabel: "高校动漫网",
     sources: ["gxdm.net", "yunmanzhan.com"],
     guid: guidFromUrl("https://www.gxdm.net/article-49800-1.html"),
-    markdown: `## 资讯归纳
+    markdown: `![封面](https://i1.hdslb.com/bfs/openplatform/202609/DG13xjFO1788358575_1788358575918.png)
+
+## 资讯归纳
 
 「西安·澜珊动漫展（于澜珊处·邂逅幻想）」出现在高校动漫网与次元黄页，日期 2026 年 11 月 7 日，场馆西安老钢厂设计创意产业园，票价栏约 45 元起，状态未开始。
 
@@ -260,6 +269,91 @@ ONLY 展对摊位内容与观众礼仪更敏感。不了解题材也想去凑热
 ## 参考链接
 
 1. [次元黄页条目](https://www.yunmanzhan.com/#title-13082)
+`,
+  },
+
+  {
+    channel: "events",
+    title: "北京·BACC 动漫游戏嘉年华 06：聚合站已收录，海报与场次以主办为准",
+    link: "https://www.gxdm.net/article-50224-1.html",
+    coverUrl: "https://i2.hdslb.com/bfs/openplatform/202609/bqbxEHGH1790576533_1790576533412.jpg",
+    publishedAt: "2026-11-05T12:00:00.000Z",
+    sourceLabel: "高校动漫网",
+    sources: ["gxdm.net", "yunmanzhan.com"],
+    guid: guidFromUrl("https://www.gxdm.net/article-50224-1.html"),
+    markdown: `![封面](https://i2.hdslb.com/bfs/openplatform/202609/bqbxEHGH1790576533_1790576533412.jpg)
+
+## 资讯归纳
+
+高校动漫网收录「北京·BACC 动漫游戏嘉年华 06」。条目给出活动海报与基础场次线索；具体展期、票价与入场规则仍以主办方最新公告为准。
+
+## 背景补充
+
+BACC 系列在华北同好圈有一定复访基础，常见形态是动漫 + 游戏综合向的一日或两日展，舞台、市集与品牌联动并存。序号「06」表示系列活动迭代，不保证与往届场地或阵容连续。
+
+## 解读
+
+北京同城展信息在聚合站、票务平台和主办社媒之间经常互相拷贝。出发前至少核对：票种是否含舞台区、是否实名、安检是否限制应援棒与长兵器道具。本站只转述第三方线索。
+
+## 参考链接
+
+1. [高校动漫网](https://www.gxdm.net/article-50224-1.html)
+`,
+  },
+  {
+    channel: "events",
+    title: "河北·第二届明日方舟同人 only「弗尔桑德萨迦」：海报已出，细则看主办",
+    link: "https://www.gxdm.net/article-50182-1.html",
+    coverUrl: "https://i2.hdslb.com/bfs/openplatform/202609/bIqOXHaU1789967640_1789967640124.jpg",
+    publishedAt: "2026-11-05T11:30:00.000Z",
+    sourceLabel: "高校动漫网",
+    sources: ["gxdm.net"],
+    guid: guidFromUrl("https://www.gxdm.net/article-50182-1.html"),
+    markdown: `![封面](https://i2.hdslb.com/bfs/openplatform/202609/bIqOXHaU1789967640_1789967640124.jpg)
+
+## 资讯归纳
+
+「河北·第二届明日方舟同人 only——弗尔桑德萨迦」出现在高校动漫网活动页，并配有主题海报。ONLY 展通常限定作品向摊位与 COS，观众守则比综合漫展更细。
+
+## 背景补充
+
+明日方舟同人 only 在各地巡回并不罕见；「第二届」说明河北这条线至少办过一轮。标题里的「弗尔桑德萨迦」是本届主题文案，不额外对应另一个独立展会。
+
+## 解读
+
+第一次去 ONLY 的人，优先读摊主须知和摄影区规则，别只看作品名就默认和商场展一样松。票价、本命本限制与开闭馆时刻以主办为准。
+
+## 参考链接
+
+1. [高校动漫网](https://www.gxdm.net/article-50182-1.html)
+`,
+  },
+  {
+    channel: "events",
+    title: "天津·星露谷物语同人 only 8.0「花嫁与祖祖城的故事」",
+    link: "https://www.gxdm.net/article-50047-1.html",
+    coverUrl: "https://i2.hdslb.com/bfs/openplatform/202609/naQaCrV61789011682_1789011682950.png",
+    publishedAt: "2026-11-05T11:00:00.000Z",
+    sourceLabel: "高校动漫网",
+    sources: ["gxdm.net"],
+    guid: guidFromUrl("https://www.gxdm.net/article-50047-1.html"),
+    markdown: `![封面](https://i2.hdslb.com/bfs/openplatform/202609/naQaCrV61789011682_1789011682950.png)
+
+## 资讯归纳
+
+高校动漫网收录「天津·ls·星露谷物语同人 only 8.0 花嫁与祖祖城的故事」，页面带主题海报。星露谷同人 only 通常围绕农场生活、节日与角色二创摊位展开。
+
+## 背景补充
+
+「8.0」意味着这条同人线已经跑过多届，社群复访率往往高于全新品牌展。题材向 ONLY 对摊位内容边界更敏感，也更依赖主办社媒的即时通知。
+
+## 解读
+
+若你冲着特定摊主或交换物去，提前看摊位表和入场票种；聚合站海报只能证明「有这场」，不能代替当天的检票规则。
+
+## 参考链接
+
+1. [高校动漫网](https://www.gxdm.net/article-50047-1.html)
 `,
   },
 ];
