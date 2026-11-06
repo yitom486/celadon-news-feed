@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-11-06T06:34:11.607Z",
+  "feeds": {
+    "anime": "https://yitom486.github.io/celadon-news-feed/anime.xml",
+    "events": "https://yitom486.github.io/celadon-news-feed/events.xml"
+  },
+  "counts": {
+    "anime": 11,
+    "events": 10
+  },
+  "anime": [
+    {
+      "guid": "celadon:6e1b291e909d6802d93aa2f6",
+      "title": "天原《33岁单身女骑士队长。》动画化：数字职人制作，纪念 MV 同步上线",
+      "link": "https://www.pashplus.jp/anime/501817/",
+      "publishedAt": "2026-11-06T03:45:00.000Z",
+      "coverUrl": "https://www.pashplus.jp/wp-content/uploads/52f1bd3f2e5342889ac76e50be981a3d.jpg",
+      "sourceLabel": "PASH! PLUS / Digital Shokunin",
+      "sources": [
+        "pashplus.jp",
+        "kirapo.jp",
+        "animenewsnetwork.com"
+      ]
+    },
+    {
+      "guid": "celadon:a4b562239ea3efb04cb32b6b",
+      "title": "原创动画《Ninja Skooler / 忍者学校》公开试播片，剧中歌《結び目》同步上线",
+      "link": "https://prtimes.jp/main/html/rd/p/000000011.000141283.html",
+      "publishedAt": "2026-11-06T01:00:00.000Z",
+      "coverUrl": "https://prcdn.freetls.fastly.net/release_image/141283/11/141283-11-d94cd097949935fce97b20febe526949-1920x1080.png",
+      "sourceLabel": "PR TIMES / BLUE RIGHTS",
+      "sources": [
+        "prtimes.jp",
+        "livechart.me",
+        "animenewsnetwork.com"
+      ]
+    },
+    {
+      "guid": "celadon:6da54b5932774d428245c33e",
+      "title": "Netflix《愚者之夜》追加若山诗音、冈本信彦等声优，主题曲与主 PV 公开",
+      "link": "https://anime.eiga.com/news/127807/",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "coverUrl": "https://media.eiga.com/images/anime/news/127807/photo/ee0d47a8840353e7/640.jpg",
+      "sourceLabel": "Anime Hack",
+      "sources": [
+        "anime.eiga.com",
+        "bangumi.tv",
+        "about.netflix.com"
+      ]
+    },
+    {
+      "guid": "celadon:8d14cefc0d32104ec180aa0f",
+      "title": "《Code Geass 逐星的阿斯帕尔》公布主角声优：柴田伊凡、山村响，2027 年活动上映",
+      "link": "https://anime.eiga.com/news/127813/",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "coverUrl": "https://media.eiga.com/images/anime/news/127813/photo/728a5bc1ebf0cfd2/640.jpg",
+      "sourceLabel": "Anime Hack",
+      "sources": [
+        "anime.eiga.com",
+        "geass.jp",
+        "bangumi.tv"
+      ]
+    },
+    {
+      "guid": "celadon:75c35fccfdf15490233eecf9",
+      "title": "FNS 歌谣祭将唱《剧场版 吉伊卡哇》串烧：《今日の日はさようなら》等三曲",
+      "link": "https://anime.eiga.com/news/127805/",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "coverUrl": "https://media.eiga.com/images/anime/news/127805/photo/0fad2e9d7abc7805/640.jpg",
+      "sourceLabel": "Anime Hack",
+      "sources": [
+        "anime.eiga.com"
+      ]
+    },
+    {
+      "guid": "celadon:7daaac25d39a9692c2a462b0",
+      "title": "《药屋少女的呢喃》真人逃脱游戏第 2 弹：原创婚宴毒案，2027 年 1 月东京开跑",
+      "link": "https://animeanime.jp/article/2026/11/06/104528.html",
+      "publishedAt": "2026-11-06T03:30:00.000Z",
+      "coverUrl": "https://animeanime.jp/imgs/ogp_f/952448.png",
+      "sourceLabel": "Anime! Anime!",
+      "sources": [
+        "animeanime.jp"
+      ]
+    },
+    {
+      "guid": "celadon:d62d8603173ad59c0ea8063e",
+      "title": "作词家森雪之丞推出首部自传：《CHA-LA HEAD-CHA-LA》等 25 首代表作自解",
+      "link": "https://anime.eiga.com/news/127806/",
+      "publishedAt": "2026-11-04T03:00:00.000Z",
+      "coverUrl": "https://media.eiga.com/images/anime/news/127806/photo/233f90d0c53171e7/640.jpg",
+      "sourceLabel": "Anime Hack",
+      "sources": [
+        "anime.eiga.com"
+      ]
+    },
+    {
+      "guid": "celadon:a4ec5a4ea539982d40ee115e",
+      "title": "Animelo Summer Live 福冈 2027 公布第一弹 20 组：雅倍 T 恤屋、BLUE ENCOUNT 初登场",
+      "link": "https://anime.eiga.com/news/127808/",
+      "publishedAt": "2026-11-05T06:00:00.000Z",
+      "coverUrl": "https://media.eiga.com/images/anime/news/127808/photo/054dc1a66ce6d8b2/640.jpg",
+      "sourceLabel": "Anime Hack",
+      "sources": [
+        "anime.eiga.com"
+      ]
+    },
+    {
+      "guid": "celadon:962efb3ca5f0155072d3b2d2",
+      "title": "《凡尔赛玫瑰》时隔约 50 年再携东急百货店办「奥斯卡的圣诞节」",
+      "link": "https://animeanime.jp/article/2026/11/06/104522.html",
+      "publishedAt": "2026-11-06T02:40:00.000Z",
+      "coverUrl": "https://animeanime.jp/imgs/ogp_f/951680.jpg",
+      "sourceLabel": "Anime! Anime!",
+      "sources": [
+        "animeanime.jp"
+      ]
+    },
+    {
+      "guid": "celadon:8841613a452cf68e5e420817",
+      "title": "《魔卡少女樱 透明牌篇》一番赏开售：片头服装小樱手办、库洛牌之书收纳盒领衔",
+      "link": "https://animeanime.jp/article/2026/11/06/104519.html",
+      "publishedAt": "2026-11-06T01:15:00.000Z",
+      "coverUrl": "https://animeanime.jp/imgs/ogp_f/951814.jpg",
+      "sourceLabel": "Anime! Anime!",
+      "sources": [
+        "animeanime.jp"
+      ]
+    },
+    {
+      "guid": "celadon:c52bdf36bae7a5846c81a5d5",
+      "title": "凯蒂猫抽奖 11 月 7 日开卖：行李箱、毛绒与首饰盒登上罗森柜台",
+      "link": "https://animeanime.jp/article/2026/11/06/104529.html",
+      "publishedAt": "2026-11-06T03:45:00.000Z",
+      "coverUrl": "https://animeanime.jp/imgs/ogp_f/951333.jpg",
+      "sourceLabel": "Anime! Anime!",
+      "sources": [
+        "animeanime.jp"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "guid": "celadon:6264e7560da440df4442634d",
+      "title": "烟台·永昼梦乐奇境动漫展进行中：11 月 6–8 日永旺梦乐城金沙滩店",
+      "link": "https://www.yunmanzhan.com/#title-13078",
+      "publishedAt": "2026-11-06T03:00:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com",
+        "gxdm.net"
+      ]
+    },
+    {
+      "guid": "celadon:0906e5e0e1f2ace3621de5d9",
+      "title": "哈尔滨·剑网 3 同人 ONLY 2.0：11 月 7 日江上城堡，聚合站显示已停售",
+      "link": "https://www.gxdm.net/article-50529-1.html",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "高校动漫网",
+      "sources": [
+        "gxdm.net",
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:c88154224d328599045b658c",
+      "title": "深圳·智趣动漫游戏嘉年华：聚合站标注延期，原定 11 月 7 日有来荟 UL HUB",
+      "link": "https://www.yunmanzhan.com/#title-12827",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:64d887cfab2ec139cad77d90",
+      "title": "西安·澜珊动漫展（于澜珊处·邂逅幻想）：11 月 7 日老钢厂创意产业园",
+      "link": "https://www.gxdm.net/article-49800-1.html",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "高校动漫网",
+      "sources": [
+        "gxdm.net",
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:03eb759daae5672fc8cfd8e9",
+      "title": "长沙·明日方舟 × 终末地同人 ONLY：11 月 7 日长沙次元中心",
+      "link": "https://www.yunmanzhan.com/#title-12152",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:c7906c9a4a8e8a1a5389640e",
+      "title": "广州·幻境动漫嘉年华 3.0：11 月 7 日健康港星河 COCO Park",
+      "link": "https://www.yunmanzhan.com/#title-12820",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:7a10818dc9e8e7f06f9721f3",
+      "title": "深圳·第三届漫次方动漫嘉年华：11 月 7–8 日新芽里，票价约 9.9 元起",
+      "link": "https://www.yunmanzhan.com/#title-13086",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:e46b13e1127217bbaeb3c81d",
+      "title": "武汉·Dream Park 游戏动漫展「绮梦回响」：11 月 7–8 日武商梦时代",
+      "link": "https://www.yunmanzhan.com/#dream-park-wuhan-2026-11",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:2c043ed8897f95208af50830",
+      "title": "北京·死火海同人 only 3.0：11 月 7 日超级光合，票价约 118 元起",
+      "link": "https://www.yunmanzhan.com/#sihuohai-only-3-2026-11",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    },
+    {
+      "guid": "celadon:2c534343397fc0609f3e736d",
+      "title": "济南·蜜糖 × 次元动漫派对：11 月 7 日领秀城贵和，标题标免费但票价栏仍有数字",
+      "link": "https://www.yunmanzhan.com/#title-13082",
+      "publishedAt": "2026-11-05T14:51:00.000Z",
+      "coverUrl": null,
+      "sourceLabel": "次元黄页",
+      "sources": [
+        "yunmanzhan.com"
+      ]
+    }
+  ]
+}
