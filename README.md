@@ -69,3 +69,14 @@ bun run check    # 用与站点相同的 parse/sanitize 规则冒烟
 ## 许可与边界
 
 稿件为亚域空间编辑整理，转述公开报道；漫展条目标明第三方聚合线索。本 feed 可公开订阅；生产 Secrets 切换前请先在预览环境验证。
+
+## 采集 → 接收端润色（rss-pipeline）
+
+生产主路径是 **爬取原稿 → POST ingest → tomy RSS → 站点双订**，不再依赖本仓库手工 `content/*.ts` 长文改写烧 token。
+
+- 代码与文档：[`rss-pipeline/`](./rss-pipeline/)
+- 给接收端智能体的交接（含更新提示词）：[`rss-pipeline/ANIME_UPSTREAM_HANDOFF.md`](./rss-pipeline/ANIME_UPSTREAM_HANDOFF.md)
+- 采集端契约：[`rss-pipeline/ANIME_UPSTREAM_API.md`](./rss-pipeline/ANIME_UPSTREAM_API.md)
+
+本目录根上的 `content/` + GitHub Pages RSS 仍可作为**可选备用撰稿源**；站点 Secrets 以 `tomy.wutsuu0577.sbs/feeds/{anime,events}.xml` 为润色成品主源即可。
+

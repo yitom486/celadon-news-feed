@@ -2,3 +2,9 @@ node_modules/
 .DS_Store
 *.log
 .tmp/
+.env
+.env.*
+!.env.example
+!rss-pipeline/.env.example
+rss-pipeline/node_modules/
+rss-pipeline/out/

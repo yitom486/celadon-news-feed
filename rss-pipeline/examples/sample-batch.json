@@ -1,0 +1,25 @@
+{
+  "batchId": "2026-11-06T16:00:00+08:00",
+  "items": [
+    {
+      "id": "sha256:0000000000000000000000000000000000000000000000000000000000000001",
+      "channel": "anime",
+      "source": {
+        "name": "Anime! Anime!",
+        "site": "animeanime.jp",
+        "url": "https://animeanime.jp/article/2026/11/06/104534.html"
+      },
+      "publishedAt": "2026-11-06T07:30:02.000Z",
+      "fetchedAt": "2026-11-06T08:00:00.000Z",
+      "titleOriginal": "サンプルタイトル（実在URL・联调请用 crawl 产出）",
+      "titleHintZh": null,
+      "language": "ja",
+      "excerptOriginal": "原文リード文…",
+      "contentText": "原文本文プレーンテキスト…",
+      "coverUrl": "https://animeanime.jp/imgs/rss/952709.jpg",
+      "imageUrls": ["https://animeanime.jp/imgs/rss/952709.jpg"],
+      "tags": ["animation"],
+      "raw": { "guid": "https://animeanime.jp/article/2026/11/06/104534.html" }
+    }
+  ]
+}
