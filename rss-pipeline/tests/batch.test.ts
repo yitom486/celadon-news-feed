@@ -45,22 +45,27 @@ describe("buildBatch", () => {
   });
 
 
-  test("drops svg covers and image urls", () => {
+  test("keeps content svg but drops site logos and ads", () => {
     const item = makeItem({
       channel: "anime",
       source: { name: "t", site: "mantan-web.jp", url: "https://mantan-web.jp/article/x.html" },
       publishedAt: "2026-11-06T00:00:00Z",
       titleOriginal: "t",
       language: "ja",
-      coverUrl: "https://mantan-web.jp/images/logo.svg",
+      coverUrl: "https://cdn.example.com/hero.svg",
       imageUrls: [
         "https://mantan-web.jp/images/logo.svg",
-        "https://cdn.example.com/photo.jpg",
+        "https://cdn.example.com/hero.svg",
+        "https://cdn.example.com/photo.webp",
+        "https://cdn.example.com/ads/banner.png",
         "https://cdn.example.com/icon.svg",
       ],
     });
     const batch = buildBatch([item]);
-    expect(batch.items[0].imageUrls).toEqual(["https://cdn.example.com/photo.jpg"]);
-    expect(batch.items[0].coverUrl).toBe("https://cdn.example.com/photo.jpg");
+    expect(batch.items[0].imageUrls).toEqual([
+      "https://cdn.example.com/hero.svg",
+      "https://cdn.example.com/photo.webp",
+    ]);
+    expect(batch.items[0].coverUrl).toBe("https://cdn.example.com/hero.svg");
   });
 });

@@ -11,6 +11,28 @@ export function clampText(s: string, max: number): string {
   return s.slice(0, max);
 }
 
+/** Site chrome / ads — keep content SVGs and photos; drop logos & trackers. */
+function isChromeOrAdImage(pathname: string): boolean {
+  const path = pathname.toLowerCase();
+  const base = path.split("/").pop() ?? "";
+  // filename heuristics (any extension, including .svg)
+  if (
+    /^(?:logo|icon|sprite|favicon|x-logo|google-icon|facebook-logo|twitter-logo|line-logo|apple-touch|og-logo)(?:[-_.].*)?\.(?:svg|png|jpe?g|webp|gif|ico)$/i.test(
+      base,
+    )
+  ) {
+    return true;
+  }
+  if (/(?:^|\/)(?:ads?|banner|sponsor|tracking|pixel|beacon)(?:\/|-|_)/i.test(path)) {
+    return true;
+  }
+  // common static chrome directories with logo-ish names already covered; also bare /assets/logo*
+  if (/\/(?:assets|static|common|img\/common|images\/common)\//i.test(path) && /logo|icon|sprite|favicon/i.test(base)) {
+    return true;
+  }
+  return false;
+}
+
 /** Dedupe https images. If unique count > max and `strict`, throw (receiver rejects whole batch). */
 export function uniqueHttpsImages(
   urls: Array<string | null | undefined>,
@@ -22,19 +44,17 @@ export function uniqueHttpsImages(
   for (const u of urls) {
     if (!u) continue;
     let abs: string;
+    let path: string;
     try {
-      abs = new URL(u).toString();
+      const parsed = new URL(u);
+      abs = parsed.toString();
+      path = parsed.pathname;
     } catch {
       continue;
     }
     if (!/^https:/i.test(abs)) continue;
-    // Receiver rejects SVG (and we drop obvious site chrome).
-    const path = new URL(abs).pathname.toLowerCase();
-    if (path.endsWith(".svg") || path.includes(".svg/") || /image\/svg/i.test(abs)) continue;
-    if (/(?:^|\/)(?:logo|icon|sprite|favicon|x-logo|google-icon|facebook-logo)[^/]*\.(?:png|jpe?g|webp|gif)$/i.test(path)) {
-      // keep content photos; skip tiny UI logos by filename heuristic only when under /assets/ or /static/
-      if (/\/(?:assets|static|common|img\/common)\//i.test(path)) continue;
-    }
+    // Receiver now accepts SVG as external links; still drop ads / site logos.
+    if (isChromeOrAdImage(path)) continue;
     if (seen.has(abs)) continue;
     seen.add(abs);
     out.push(abs);

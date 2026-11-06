@@ -43,6 +43,8 @@ This document is the **collector-side** companion. The receiver’s full contrac
 | `contentText` | string | Plain text body ≤ 60 000 chars |
 | `coverUrl` | string \| null | https |
 | `imageUrls` | string[] | https, deduped, ≤ 50 (else whole batch 422) |
+
+Images may be SVG **https** links (kept as external URLs, not inlined). Crawler still drops site logos / ad chrome. Prefer PNG/WebP alongside any hero SVG for broader feed-reader support.
 | `tags` | string[] | |
 | `raw.guid` | string? | Upstream guid for receipts only |
 
