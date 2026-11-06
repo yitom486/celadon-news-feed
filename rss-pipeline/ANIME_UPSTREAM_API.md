@@ -87,3 +87,7 @@ Without a token, crawl still writes `out/crawl-*.json` and `out/batch-*.json` (d
 - https://tomy.wutsuu0577.sbs/feeds/all.xml
 
 Collector does **not** write D1; `animate-site` Worker keeps pulling these RSS URLs.
+
+## Retention
+
+Receiver keeps news ~15 days; items with `publishedAt` older than 15 days are rejected with **422**. Upstream crawl drops them before POST.

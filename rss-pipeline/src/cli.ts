@@ -77,9 +77,19 @@ async function runCrawl(argv: string[]) {
   // Prefer fresher items first; avoid late old batches overwriting pending receiver drafts.
   items.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt) || a.id.localeCompare(b.id));
 
+  const maxAgeMs = 15 * 24 * 60 * 60 * 1000;
+  const cutoff = Date.now() - maxAgeMs;
+  const fresh = items.filter((it) => {
+    const t = Date.parse(it.publishedAt);
+    return Number.isFinite(t) && t >= cutoff;
+  });
+  if (fresh.length !== items.length) {
+    console.log(`dropped ${items.length - fresh.length} items older than 15 days (receiver 422)`);
+  }
+
   const deduped: CrawlItem[] = [];
   const seen = new Set<string>();
-  for (const it of items) {
+  for (const it of fresh) {
     const key = normalizeSourceUrl(it.source.url);
     if (seen.has(key)) continue;
     seen.add(key);
