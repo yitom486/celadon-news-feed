@@ -28,6 +28,13 @@ export function uniqueHttpsImages(
       continue;
     }
     if (!/^https:/i.test(abs)) continue;
+    // Receiver rejects SVG (and we drop obvious site chrome).
+    const path = new URL(abs).pathname.toLowerCase();
+    if (path.endsWith(".svg") || path.includes(".svg/") || /image\/svg/i.test(abs)) continue;
+    if (/(?:^|\/)(?:logo|icon|sprite|favicon|x-logo|google-icon|facebook-logo)[^/]*\.(?:png|jpe?g|webp|gif)$/i.test(path)) {
+      // keep content photos; skip tiny UI logos by filename heuristic only when under /assets/ or /static/
+      if (/\/(?:assets|static|common|img\/common)\//i.test(path)) continue;
+    }
     if (seen.has(abs)) continue;
     seen.add(abs);
     out.push(abs);

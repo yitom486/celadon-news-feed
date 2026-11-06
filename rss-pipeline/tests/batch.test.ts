@@ -43,4 +43,24 @@ describe("buildBatch", () => {
     expect(batch.items).toHaveLength(1);
     expect(batch.items[0].titleOriginal).toBe("one");
   });
+
+
+  test("drops svg covers and image urls", () => {
+    const item = makeItem({
+      channel: "anime",
+      source: { name: "t", site: "mantan-web.jp", url: "https://mantan-web.jp/article/x.html" },
+      publishedAt: "2026-11-06T00:00:00Z",
+      titleOriginal: "t",
+      language: "ja",
+      coverUrl: "https://mantan-web.jp/images/logo.svg",
+      imageUrls: [
+        "https://mantan-web.jp/images/logo.svg",
+        "https://cdn.example.com/photo.jpg",
+        "https://cdn.example.com/icon.svg",
+      ],
+    });
+    const batch = buildBatch([item]);
+    expect(batch.items[0].imageUrls).toEqual(["https://cdn.example.com/photo.jpg"]);
+    expect(batch.items[0].coverUrl).toBe("https://cdn.example.com/photo.jpg");
+  });
 });
